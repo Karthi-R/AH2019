@@ -22,3 +22,9 @@ dist/
 node_modules/
 aws-exports.js
 awsconfiguration.json
+.idea/gradle.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/codeStyles/Project.xml
+.idea/dictionaries/karthirr.xml
+.idea/encodings.xml
