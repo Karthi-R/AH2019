@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="@dimen/md"
+            android:layout_height="wrap_content">
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingTop="@dimen/lg"
+                  android:textSize="@dimen/lg"
+                  android:textStyle="bold"
+                  android:text="Soil moisture"/>
+
+        <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/soil_sensor_graph"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/md"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingTop="@dimen/lg"
+                  android:textSize="@dimen/lg"
+                  android:textStyle="bold"
+                  android:text="Temperature"/>
+
+        <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/temp_sensor_graph"
+                android:layout_width="match_parent"
+                android:clickable="false"
+                android:focusable="false"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/md"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingTop="@dimen/lg"
+                  android:textStyle="bold"
+                  android:textSize="@dimen/lg"
+                  android:text="Humidity (Atmosphere)"/>
+
+        <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/humidity_sensor_graph"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:clickable="false"
+                android:focusable="false"
+                android:layout_marginTop="@dimen/md"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingTop="@dimen/lg"
+                  android:textStyle="bold"
+                  android:textSize="@dimen/lg"
+                  android:text="Water level indicator"/>
+
+        <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/wl_sensor_graph"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:clickable="false"
+                android:focusable="false"
+                android:layout_marginTop="@dimen/md"/>
+
+    </LinearLayout>
+</ScrollView>

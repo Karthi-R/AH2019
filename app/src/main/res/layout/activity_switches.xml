@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:padding="@dimen/md"
+              android:layout_height="match_parent">
+
+    <Switch
+            android:text="Animal shed Light"
+            android:layout_width="match_parent"
+            android:padding="@dimen/lg"
+            android:textSize="@dimen/lg"
+            android:layout_height="wrap_content" android:id="@+id/switch1"/>
+
+    <Switch
+            android:text="Sprinkler Switch"
+            android:padding="@dimen/lg"
+            android:textSize="@dimen/lg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/switch2"/>
+    <Switch
+            android:text="Water pump Switch"
+            android:padding="@dimen/lg"
+            android:textSize="@dimen/lg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/switch3"/>
+</LinearLayout>

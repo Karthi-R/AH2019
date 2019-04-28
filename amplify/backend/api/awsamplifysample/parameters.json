@@ -1,0 +1,4 @@
+{
+    "AppSyncApiName": "awsamplifysample",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST"
+}

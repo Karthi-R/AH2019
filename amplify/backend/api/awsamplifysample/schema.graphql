@@ -1,0 +1,12 @@
+type Todo @model {
+  id: ID!
+  name: String!
+  description: String
+  phNo: String
+}
+
+type employee @model {
+  id: ID!
+  name: String!
+  role: String
+}

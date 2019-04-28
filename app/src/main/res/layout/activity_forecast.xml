@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="@dimen/md"
+            android:layout_height="wrap_content">
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingTop="@dimen/lg"
+                  android:textSize="@dimen/lg"
+                  android:textStyle="bold"
+                  android:text="Water demand forecast"/>
+
+        <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/water_demand_graph"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/md"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingTop="@dimen/lg"
+                  android:textSize="@dimen/lg"
+                  android:textStyle="bold"
+                  android:text="Weather forecast"/>
+
+        <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/weather_graph"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/md"/>
+
+    </LinearLayout>
+</ScrollView>
